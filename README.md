@@ -1,2 +1,28 @@
-# weather-app
-A simple weather web application demonstrating frontend and backend integration using HTML, CSS, JavaScript, and PHP.
+Weather Web Application
+
+This is my first web application project, developed to learn web development fundamentals, API integration, and browser-based data storage.
+
+ Technologies Used
+- HTML
+- CSS
+- JavaScript
+- PHP
+
+Features
+- Search weather by city
+- Displays temperature, humidity, and weather conditions
+- Stores recent searches in the browser using localStorage
+- Responsive and user-friendly interface
+- Clean code structure for easy understanding
+
+
+
+ Purpose
+This project helped me understand:
+- How to fetch and display data from APIs
+- Client–server interaction using PHP
+- Storing and retrieving data in the browser
+- Organizing frontend and backend code in a simple web app
+
+ How to Run:
+   git clone https://github.com/Dilshan-wijayawardhane/weather-app.git
