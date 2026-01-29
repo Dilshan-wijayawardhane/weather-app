@@ -25,4 +25,7 @@ This project helped me understand:
 - Organizing frontend and backend code in a simple web app
 
  How to Run:
+1. copy the repository:
    git clone https://github.com/Dilshan-wijayawardhane/weather-app.git
+2. Place the project in a PHP-enabled server (XAMPP/WAMP/MAMP)
+3. Open index.html in your browser
