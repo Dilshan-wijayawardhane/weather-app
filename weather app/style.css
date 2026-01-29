@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	background-image:url('pexels-felixmittermeier-956999.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	font-family:Arial,sans-serif;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	
+}
+		
+.weather-container{
+	#border: 2px solid white;
+	background-image:url('2024.jpg');
+	padding:30px;
+	border-radius:10px;
+	box-shadow: 0 4px 6pxrgb(0,0,0,0,1);
+	text-align:center;
+	min-width: 900px;
+	max-width:900px;
+	min-height: 600px;
+	display:flex;
+	flex-direction: column;
+	align-content:center;
+}
+
+h1 {
+	margin-bottom:20px;
+}
+
+.search-box{
+	margin-bottom:20px;
+}
+
+#location{
+	padding:10px;
+	width:70%
+	border:1px solid    #ccc
+	border-redius:5px;
+}
+
+#search-btn {
+	padding:10px;
+	background-color:#4CAF50;
+	color:none;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+#search-btn:hover{
+	background-color:#45a049;
+}
+
+.eror-message{
+	color:red;
+	margin-top:20px;
+}
+
+.forecast-5-day {
+    border: 2px solid white;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column; 
+    padding: 10px; 
+    justify-content: flex-start; 
+    background: transparent; 
+    border-radius: 10px; 
+    backdrop-filter: blur(10px); 
+}
+
+
+.forecast-5-day h2 {
+    margin-bottom: 15px; 
+    border: none; 
+    color: blue;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+	
+h2 {
+	position: relative;
+	
+	
+	text-align:center;
+	color:black;
+	
+}
+.day {	
+    background: black;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(20% - 30px); 
+    border: 1px solid #ddd;
+	height: 150px;
+    flex-shrink: 0; 
+}
+
+.day .card-content {
+    text-align: center; 
+}
+
+.forecast-5-day .day-container {
+    display: flex;
+    justify-content: space-between; 
+}
